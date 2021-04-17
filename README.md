@@ -1,9 +1,24 @@
 # Genetic Algorithm
 This is **genetic algorithm** that will find the maximum of function.
 Chromosomes are coded binary. They are selected by the roulette method.
-## Table of content
+## Contents
+* [Algorithm Description](#algorithm_description)
 * [Example](#example)
 * [Tests](#tests)
+
+## Algorithm Description
+The original population was randomly initiated, while on the basis of the defined fit function:  
+```R
+adaptionFunction <- function(X) {return(0.2 * X^3 + 0.1 * X^2 -8 * X)}
+```
+the quality of solutions in a given population is assessed. This allows the selection of better suited candidates who will be the basis for the creation of the next generation in the next stages. The chromosome is represented by a real number in the range `<-7;7>`.  
+Good chromosomes are those for which the value of the function `0.2 * X^3 + 0.1 * X^2 -8 * X` it is close to the maximum value of this function in a given range, it is `<-7;7>`. 
+```
+For example:  
+Test n1: 28.076,   
+Test n2: 22.53667,   
+Test n3: 22.46333.  
+```
 
 ## **Example:**
 ### Population: *(10)*
