@@ -36,7 +36,18 @@ Chromosomes are coded binary. They are selected by the roulette method.
 -|1|2|3|4
 -|-|-|-|-
 1|0|1|0|1
-2|
+2|0|1|0|0
+3|0|0|0|1
+4|0|0|1|1
+5|0|1|1|1
+6|0|1|0|1
+7|0|1|1|1
+8|0|0|0|0
+9|0|0|0|0
+10|0|0|1|0
+### Adaptation value: 5.701429
+### Epoch: 7
+
 
 ## **Tests**:
 Test Number|Population Size|Crossing Probability|Mutation Probability|Found Solution|Number of Iterations
