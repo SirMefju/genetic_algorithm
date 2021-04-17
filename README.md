@@ -2,8 +2,8 @@
 This is **genetic algorithm** that will find the maximum of function.
 Chromosomes are coded binary. They are selected by the roulette method.
 
-## **Example:** 10 population with 0.3 chance of crossing and 0.1 chance of mutation.
-### Population:
+## **Example:**
+### Population: *(10)*
 -|1|2|3|4
 -|-|-|-|-
 1|0|0|0|1
@@ -16,7 +16,7 @@ Chromosomes are coded binary. They are selected by the roulette method.
 8|0|0|0|0
 9|0|1|0|0
 10|0|0|1|0
-### Crossing:
+### Crossing: *(0.3)*
 -|1|2|3|4
 -|-|-|-|-
 1|0|1|0|1
@@ -29,6 +29,11 @@ Chromosomes are coded binary. They are selected by the roulette method.
 8|0|0|0|0
 9|0|0|0|0
 10|0|1|1|0
+### Mutation *(0.1)*
+-|1|2|3|4
+-|-|-|-|-
+1|0|1|0|1
+2|
 
 ## **Tests**:
 Test Number|Population Size|Crossing Probability|Mutation Probability|Found Solution|Number of Iterations
