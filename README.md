@@ -1,12 +1,13 @@
 # Genetic Algorithm
-This is **genetic algorithm** that will find the maximum of function.
-Chromosomes are coded binary. They are selected by the roulette method.
+Genetic Algorithm (GA) is a search-based optimization technique based on the principles of Genetics and Natural Selection. It is frequently used to find optimal or near-optimal solutions to difficult problems which otherwise would take a lifetime to solve. It is frequently used to solve optimization problems, in research, and in machine learning.
 ## Contents
 * [Algorithm Description](#algorithm_description)
 * [Example](#example)
 * [Tests](#tests)
+* [Conclusions](#conclusions)
 
 ## Algorithm Description
+Genetic algorithm will find the maximum of function. Every chromosomes are coded binary and selected by the roulette method.
 The original population was randomly initiated, while on the basis of the defined fit function:  
 ```R
 adaptionFunction <- function(X) {return(0.2 * X^3 + 0.1 * X^2 -8 * X)}
@@ -19,8 +20,9 @@ Test n1: 28.076,
 Test n2: 22.53667,   
 Test n3: 22.46333.  
 ```
+Adaptional function also called the fit function or judgment function, it is a measure of the fitness (fit) of an individual in a population. On its basis, we evaluate the degree of adaptation of a given individual in the population and select the individual with the highest value of the fitness function is the maximized function. It has one argument representing the solution.
 
-## **Example:**
+## Example:
 ### Population: *(10)*
 -|1|2|3|4
 -|-|-|-|-
@@ -130,3 +132,5 @@ Trial Number|Population Size|Crossing Probability|Mutation Probability|Found Sol
 10.3|10|1|0.01|24.04833|6
 10.4|10|1|0.01|15.3125|4
 10.5|10|1|0.01|5.3325|4
+## Conclusions:
+Based on the simulation results, we can conclude that the algorithm effectively searched for the maximum of the given function every time. Due to the elements of randomness, this maximum was achieved at various stages (during different iterations), the maximum values found in each simulation differed from each other, but only slightly. Analyzing the results, it can be easily noticed that during subsequent iterations, the average adaptation of the population gradually increases and approaches the maximum value, which also proves the effectiveness of the algorithm we used.
