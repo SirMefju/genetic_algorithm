@@ -1,6 +1,9 @@
 # Genetic Algorithm
 This is **genetic algorithm** that will find the maximum of function.
 Chromosomes are coded binary. They are selected by the roulette method.
+## Table of content
+* [Example](#example)
+* [Tests](#tests)
 
 ## **Example:**
 ### Population: *(10)*
