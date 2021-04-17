@@ -131,8 +131,13 @@ while (epoch < 15) {
     }
 }
 averageValueAdaptation<-(sum(sumMeasures)/(epoch*10))
+print("Population:")
 show(pop);
+print("Crossing")
 show(crossing);
+print("Mutation")
 show(mutation);
+print("Average value adaption:")
 show(averageValueAdaptation);
+print("Epoch")
 show(epoch);
