@@ -49,7 +49,7 @@ Adaptional function also called the fit function or judgment function, it is a m
 8|0|0|0|0
 9|0|0|0|0
 10|0|1|1|0
-### Mutation *(0.1)*
+### Mutation: *(0.1)*
 -|1|2|3|4
 -|-|-|-|-
 1|0|1|0|1
@@ -62,7 +62,7 @@ Adaptional function also called the fit function or judgment function, it is a m
 8|0|0|0|0
 9|0|0|0|0
 10|0|0|1|0
-### Adaptation value: 5.701429
+### Average adaptation value: 5.701429
 ### Epoch: 7
 
 
