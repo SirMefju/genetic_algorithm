@@ -1,12 +1,12 @@
 # Genetic Algorithm
 Genetic Algorithm (GA) is a search-based optimization technique based on the principles of Genetics and Natural Selection. It is frequently used to find optimal or near-optimal solutions to difficult problems which otherwise would take a lifetime to solve. It is frequently used to solve optimization problems, in research, and in machine learning.
 ## Table of Contents
-* [AlgorithmDescription](#algorithmDescription)
+* [Description](#description)
 * [Example](#example)
 * [Tests](#tests)
 * [Conclusions](#conclusions)
 
-## AlgorithmDescription
+## Description
 Genetic algorithm will find the maximum of function. Every chromosomes are coded binary and selected by the roulette method.
 The original population was randomly initiated, while on the basis of the defined fit function:  
 ```R
