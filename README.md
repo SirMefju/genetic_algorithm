@@ -134,3 +134,5 @@ Trial Number|Population Size|Crossing Probability|Mutation Probability|Found Sol
 10.5|10|1|0.01|5.3325|4
 ## Conclusions
 Based on the simulation results, we can conclude that the algorithm effectively searched for the maximum of the given function every time. Due to the elements of randomness, this maximum was achieved at various stages (during different iterations), the maximum values found in each simulation differed from each other, but only slightly. Analyzing the results, it can be easily noticed that during subsequent iterations, the average adaptation of the population gradually increases and approaches the maximum value, which also proves the effectiveness of the algorithm we used.
+#
+:]
